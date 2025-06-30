@@ -21,6 +21,6 @@ public class CtoFConverter {
         }while (!done);
 
         tempF = (9.0 / 5.0) * tempC + 32;
-        System.out.println("Your temperature in Fahrenheit is: " + tempF);
+        System.out.printf("Your temperature in Fahrenheit is: %.1f\n", + tempF);
         }
     }
